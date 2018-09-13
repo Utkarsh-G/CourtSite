@@ -1,0 +1,25 @@
+body{
+    background-color: #1c1c1c;
+    color: antiquewhite;
+    background-image: url(/assests/dark_3@3x.png);
+    background-size: 100% auto;
+}
+
+.landing{
+    background-image: url(/assests/landing@3x.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    /* background-color: white; */
+    width: 50%;
+    height: 100%;
+}
+
+.ui.secondary.menu .item.menuItem{
+    /* background-color: rgba(255, 255, 255, 0.555); */
+    color:purple;
+}
+
+
+#court{
+    width: 10%;
+}

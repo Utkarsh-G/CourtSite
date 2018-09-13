@@ -1,8 +1,9 @@
 body{
     background-color: #1c1c1c;
-    color: antiquewhite;
+    color: white;
     background-image: url(/assests/dark_3@3x.png);
     background-size: 100% auto;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .landing{
@@ -14,12 +15,29 @@ body{
     height: 100%;
 }
 
-.ui.secondary.menu .item.menuItem{
+
+
+.ui.secondary.menu .item.menuItem.active .rectangle{
     /* background-color: rgba(255, 255, 255, 0.555); */
-    color:purple;
+    width: 1.9px;
+    height: 30px;
+    background-color: #ffc901;
+    margin-right:3px;
+    /* text-align: left; */
+}
+
+.ui.four.item.secondary.menu .item.menuItem {
+    color:white;
+}
+
+.ui.header.jumbo h1{
+    padding-top: 150px;
+    color:white;
+    font-size:80px;
+
 }
 
 
 #court{
-    width: 10%;
+    width: 25%;
 }

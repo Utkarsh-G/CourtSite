@@ -1,17 +1,17 @@
 @font-face{
     font-family: 'Caslon335 Bold';
-    src: url("/assests/caslon335-bold\ .ttf");
+    src: url("/assets/caslon335-bold\ .ttf");
 }
 
 body{
     background-color: #1c1c1c;
     color: white;
-    background-image: url(/assests/dark_6@3x.png);
+    background-image: url("dark_6@3x.png");
     background-size: 100%;
 }
 
 .landing{
-    background-image: url(/assests/landing@3x.png);
+    background-image: url(landing@3x.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
     width: 50%;
@@ -19,7 +19,7 @@ body{
 }
 
 .contact{
-    background-image: url(/assests/slice@3x.png);
+    background-image: url(slice@3x.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
     width: 50%;

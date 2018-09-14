@@ -6,16 +6,14 @@
 body{
     background-color: #1c1c1c;
     color: white;
-    background-image: url(/assests/dark_3@3x.png);
-    background-size: 100% auto;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    background-image: url(/assests/dark_6@3x.png);
+    background-size: 100%;
 }
 
 .landing{
     background-image: url(/assests/landing@3x.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    /* background-color: white; */
     width: 50%;
     height: 100%;
 }
@@ -24,7 +22,6 @@ body{
     background-image: url(/assests/slice@3x.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    /* background-color: white; */
     width: 50%;
     height: 100%;
 }
@@ -41,6 +38,8 @@ body{
 
 .ui.four.item.secondary.menu .item.menuItem {
     color:white;
+    font-weight: 900;
+    text-align:left;
 }
 
 .ui.header.jumbo h1{
@@ -50,14 +49,11 @@ body{
     font-family: 'Caslon355 Bold';
 }
 
-
 #court{
     width: 25%;
 }
 
-/* .ui.grid .column{
-    background-color: red;
-} */
+/* Bottom half of landing page */
 
 .horizRule{
     width: 100%;
@@ -77,8 +73,6 @@ h4{
 }
 
 button{
-    position: relative;
-    bottom: -20px;
     width:66%;
     height: 7%;
     border-radius: 32px;
@@ -91,9 +85,6 @@ button{
 }
 
 button:hover{
-    width:66%;
-    height: 25%;
-    border-radius: 32px;
     border: solid 1px #ffc901;
     background-color:#ffc901;
     color: black;
@@ -105,10 +96,30 @@ button:hover{
 
 .card .yellow{
     color:#ffc901;
+    font-weight: 900;
 }
 
 .card p{
     margin-top:10px;
+}
+
+.ui.container.footer{
+    margin-top:50px;
+    background-color: black;
+    width: 100%;
+    padding: 10px 50px;
+    text-align: right;
+}
+
+.footerIcon{
+    width: 20px;
+    height: 20px;
+    margin-left: 25px;
+}
+
+.footerIcon.invertIcon{
+    /* background-color: #ffc901; */
+    filter:invert(100%);
 }
 
 /* Contact Page */
@@ -118,14 +129,17 @@ button:hover{
     margin-top: 40px;
 }
 
+
 .smallIcon{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-right: 20px;
     vertical-align: middle;
     
     border-radius: 50%;
     background-color: white;
+
+    padding:5px;
 
     margin-bottom: 20px;
 }
@@ -134,12 +148,11 @@ button:hover{
     background-color: black;
 }
 
+.smallIcon.invert{
+    filter:invert(100%);
+}
+
 /* Case Study Page */
-/* 
-"studyHeader">Shopify App Feature</div>
-                        <div class="studyTitle">Hatchful Onboarding</div>
-                        <div class="studyDesc">Learning to trust the process, embrace the ambiguity, and work with the beautiful mess that is product design.</div>
-                        <div class="seeMore" */
 
 .studyCard{
     margin-top: 60px;
@@ -159,7 +172,7 @@ button:hover{
     text-align: right;
     margin-bottom: 40px;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 24px;
 }
 
 .studyDesc{

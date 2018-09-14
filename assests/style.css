@@ -20,6 +20,14 @@ body{
     height: 100%;
 }
 
+.contact{
+    background-image: url(/assests/slice@3x.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    /* background-color: white; */
+    width: 50%;
+    height: 100%;
+}
 
 
 .ui.secondary.menu .item.menuItem.active .rectangle{
@@ -101,4 +109,25 @@ button:hover{
 
 .card p{
     margin-top:10px;
+}
+
+.allLinks{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.smallIcon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    vertical-align: middle;
+    
+    border-radius: 50%;
+    background-color: white;
+
+    margin-bottom: 20px;
+}
+
+.smallIcon.mail{
+    background-color: black;
 }

@@ -17,7 +17,7 @@ body{
 	font-size: 18px;
 	font-weight: 300;
     line-height: 28px;
-    margin-left: 60px;
+    /* margin-left: 100px; */
 }
 
 .landing{
@@ -28,12 +28,16 @@ body{
     height: 800px;
 }
 
+.ui.container.top{
+    padding-left:100px;
+}
+
 .contact{
     background-image: url(slice@3x.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
     width: 50%;
-    height: 100%;
+    height: 730px;
 }
 
 
@@ -58,7 +62,7 @@ body{
     font-size: 104px;
     font-family: le-monde-livre-classic-byol, serif;
     font-weight: 600;
-    margin-left:60px;
+    /* margin-left:100px; */
 }
 
 #court{
@@ -68,17 +72,28 @@ body{
 /* Bottom half of landing page */
 
  .landingScrolled{
-	margin-top: 96px;
-	margin-bottom: 96px;
-} 
+	margin: 96px 0;
+}
+
+.landingScrolled .ui.three.column.grid{
+    margin: 0 50px;
+}
 
 .grid{
 	margin-bottom: 124px;
 }
 
-.ui.grid > .column:not(.row), .ui.grid > .row > .column{
-    padding-left:4rem;
-    padding-right:4rem;
+/*Set the spacing between the three columns
+    Using "margin" will break semantic's UI grid layout, 
+    could lead to last column going to a different row.
+
+    The odd looking selector is just copy-pasted from
+    "inspect element" to be just as specific as semantic's 
+    selector in order to over-ride it.
+*/
+.ui.grid > .column:not(.row), .ui.grid > .row > .column{ 
+    padding-left:3rem;
+    padding-right:3rem;
 }
 
 .horizRule{

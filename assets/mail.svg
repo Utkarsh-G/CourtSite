@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>social / mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.0664062,4 C22.135125,4 23,4.832 23,5.84615385 L23,18.1538462 C23,19.1742359 22.1285938,20 21.0664062,20 L2.93359375,20 C1.864875,20 1,19.168 1,18.1538462 L1,5.84615385 C1,4.82855385 1.86874219,4 2.93359375,4 L21.0664062,4 Z M20.7993984,5.23076923 L3.20683203,5.23076923 L12.0409922,13.5931487 L20.7993984,5.23076923 Z M2.2890625,17.8989949 L8.49714453,11.9716513 L2.2890625,6.09513846 L2.2890625,17.8989949 Z M3.20055859,18.7692308 L20.7994414,18.7692308 L14.6210937,12.8702769 L12.4987383,14.8966564 C12.2478008,15.1362872 11.8411875,15.1370667 11.5892187,14.8985436 L9.41255078,12.8381538 L3.20055859,18.7692308 Z M21.7109375,17.9264678 L21.7109375,6.07349115 L15.5,11.97 L21.7109375,17.9264678 Z" id="path-1"></path>
+    </defs>
+    <g id="social-/-mail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="#B3B3B3" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

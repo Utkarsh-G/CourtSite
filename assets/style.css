@@ -5,9 +5,18 @@
 
 body{
     background-color: #1c1c1c;
+    font-family: 'europa', sans-serif;
     color: white;
     background-image: url("dark_6@3x.png");
-    background-size: 100%;
+    background-size: 750px;
+    background-repeat: repeat;
+    letter-spacing: 0.1px;
+}
+
+.subheader{
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 28px;
 }
 
 .landing{
@@ -38,47 +47,64 @@ body{
 
 .ui.four.item.secondary.menu .item.menuItem {
     color:white;
-    font-weight: 900;
+    font-weight: 600;
     text-align:left;
 }
 
 .ui.header.jumbo h1{
     padding-top: 150px;
-    color:white;
-    font-size:80px;
-    font-family: 'Caslon355 Bold';
+    color: white;
+    font-size: 104px;
+    font-family: le-monde-livre-classic-byol, serif;
+    font-weight: 600;
 }
 
 #court{
-    width: 25%;
+    width: 15%;
 }
 
 /* Bottom half of landing page */
 
+.landingScrolled{
+	margin-top: 96px;
+	margin-bottom: 96px;
+}
+
+.grid{
+	margin-bottom: 124px;
+}
+
 .horizRule{
     width: 100%;
-    height: 2px;
-    border:solid 2px #ffc901;
+    height: 0px;
+    border:solid 1px #ffc901;
 
 }
 
 h3{
-    font-family: 'Caslon355 Bold';
+    font-family: le-monde-livre-classic-byol, serif;
+    font-weight: 700;
     margin-bottom: 0px;
     font-size: 1.6rem;
 }
 
 h4{
     text-transform: uppercase;
+    margin-bottom: 2px;
+    font-size: 20px;
 }
 
 button{
-    width:66%;
-    height: 7%;
+	font-weight: 700;
+    width: 208px;
+    height: 48px;
     border-radius: 32px;
     border: solid 1px #ffffff;
     background-color:rgba(0, 0, 0, 0);
     color: white;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
 
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
@@ -91,23 +117,27 @@ button:hover{
 }
 
 .card{
-    margin-top:20px;
+    margin-top:40px;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight:300;
 }
 
 .card .yellow{
     color:#ffc901;
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .card p{
-    margin-top:10px;
+    margin-top: 16px;
 }
 
 .ui.container.footer{
     margin-top:50px;
     background-color: black;
     width: 100%;
-    padding: 10px 50px;
+    padding: 24px 50px;
     text-align: right;
 }
 
@@ -115,41 +145,58 @@ button:hover{
     width: 20px;
     height: 20px;
     margin-left: 25px;
+    fill: white;
 }
 
 .footerIcon.invertIcon{
     /* background-color: #ffc901; */
-    filter:invert(100%);
+    fill: white;
+}
+
+.footerIcon:hover{
+	fill: #ffc901;
 }
 
 /* Contact Page */
 
 .allLinks{
     margin-left: 40px;
-    margin-top: 40px;
+    margin-top: 64px;
+    display: block;
 }
 
 
 .smallIcon{
     width: 40px;
     height: 40px;
+    margin: auto;
     margin-right: 20px;
-    vertical-align: middle;
-    
-    border-radius: 50%;
-    background-color: white;
-
-    padding:5px;
-
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
-.smallIcon.mail{
-    background-color: black;
-}
 
 .smallIcon.invert{
     filter:invert(100%);
+}
+
+.contact-text{
+	display: inline;
+	vertical-align: top;
+	line-height: 36px;
+	font-size: 20px;
+	color: white;
+}
+
+.contactLink{
+	width: fit-content;
+}
+
+.contactLink:hover > .contact-text{
+	color: #ffc901;
+}
+
+.contactLink:hover > .smallIcon{
+	fill: #ffc901;
 }
 
 /* Case Study Page */
@@ -158,8 +205,12 @@ button:hover{
     margin-top: 60px;
 }
 
+#case-space{
+	height: 120px;
+}
+
 .studyHeader{
-    font-weight: 900;
+    font-weight: 700;
     font-size: 24px;
     text-align: center;
     margin-bottom: 60px;
@@ -167,7 +218,7 @@ button:hover{
 }
 
 .studyTitle{
-    font-weight: 900;
+    font-weight: 700;
     font-size: 40px;
     text-align: right;
     margin-bottom: 40px;
@@ -177,6 +228,8 @@ button:hover{
 
 .studyDesc{
     margin-bottom: 40px;
+    line-height: 30px;
+    font-size: 14px;
 }
 
 .seeMore{

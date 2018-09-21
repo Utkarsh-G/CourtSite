@@ -272,6 +272,14 @@ button:hover{
     font-weight: bold;
 }
 
+.navigationArrow{
+    background-color: #ffc901;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
 /* Project Details */
 
 .projectDetails {
@@ -301,4 +309,40 @@ button:hover{
     width: 40%;
 
 }
+
+.navigationArrow.back{
+    float: left;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+} 
+
+.linkToNextProject{
+    margin-top:150px;
+    text-align: center;
+}
+
+.linkToNextProject .nextProject{
+    font-family: 'Caslon335 Bold';
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.linkToNextProject .projectName{
+    color:#ffc901;
+    font-size: 52px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.linkToNextProject .next{
+    background-color: #ffffff;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    width: 64px;
+    height: 64px;
+    padding:1fac5px;
+}
+
 

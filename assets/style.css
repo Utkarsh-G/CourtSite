@@ -7,10 +7,14 @@ body{
     background-color: #1c1c1c;
     font-family: 'europa', sans-serif;
     color: white;
-    background-image: url("dark_6@3x.png");
-    background-size: 750px;
+    background-image: url("dark.png");
+    background-size: 850px;
     background-repeat: repeat;
     letter-spacing: 0.1px;
+}
+
+.full-height{
+    height: 100vh;
 }
 
 .subheader{
@@ -25,11 +29,13 @@ body{
     background-size: 100% auto;
     background-repeat: no-repeat;
     /* width: 50%; */
-    height: 800px;
+    height: 70vw;
 }
 
 .ui.container.top{
     padding-left:100px;
+    padding-right:100px;
+    overflow: auto;
 }
 
 .contact{
@@ -37,7 +43,7 @@ body{
     background-size: 100% auto;
     background-repeat: no-repeat;
     width: 50%;
-    height: 730px;
+    height: 60vw;
 }
 
 .ui.four.item.secondary.menu{
@@ -50,7 +56,7 @@ body{
 }
 
 .ui.four.item.secondary.menu.scrolled{
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(0,0,0,0.7);
 }
 
 .ui.secondary.menu .item.menuItem.active .rectangle{
@@ -81,14 +87,20 @@ body{
     width: 15%;
 }
 
+.profilepic{
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
 /* Bottom half of landing page */
 
  .landingScrolled{
-	margin: 96px 0;
+	margin: 96px;
 }
 
 .landingScrolled .ui.three.column.grid{
-    margin: 0 50px;
+    margin: 0 100px;
 }
 
 .grid{
@@ -270,14 +282,56 @@ button:hover{
 .seeMore{
     color: #ffc901;
     font-weight: bold;
+    transition: all 0.20s ease-in-out;
+}
+
+
+.seeMore:hover{
+    margin-left: 10px;
+    -webkit-transition: all 0.20s ease-in-out;
+    transition-timing-function: ease-in-out;
+    transition: all 0.20s ease-in-out;
+}
+
+.prev-img{
+    width: 85%;
+    margin-top: 60px;
+    border-radius: 16px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.5);
+    transition: all 0.20s ease-in-out;
+}
+
+.prev-img:hover{
+    -webkit-transition: all 0.20s ease-in-out;
+    transition-timing-function: ease-in-out;
+    transition: all 0.20s ease-in-out;
+    margin-top: 50px;
+    box-shadow: 20px 20px 100px rgba(0, 0, 0, 0.7);
 }
 
 .navigationArrow{
     background-color: #ffc901;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    padding: 5px;
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.proj-arrow{
+    position:absolute;
+    top: 144px;
+    left: -1px;
+    background-color: rgba(255,201, 1, 0.3);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.image-box{
+    position: relative;
 }
 
 /* Project Details */
@@ -317,7 +371,8 @@ button:hover{
 } 
 
 .linkToNextProject{
-    margin-top:150px;
+    margin-top:120px;
+    margin-bottom:50px;
     text-align: center;
 }
 
@@ -345,4 +400,16 @@ button:hover{
     padding:1fac5px;
 }
 
+.white{
+    background-color: white;
+}
+
+.grey{
+    background-color: #F7F7F7;
+}
+
+.section{
+    height: 200px;
+    width: 100%;
+}
 
